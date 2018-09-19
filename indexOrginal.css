@@ -1,0 +1,105 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.containerBig {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 25px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f25356;
+    font-size: 18px;
+    margin: 0;
+}
+.navTop ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.navTop a{
+    /*text-decoration: none;*/
+    color: #FFFFFF;
+}
+
+.navMid{
+    background-color: #FFFFFF;
+    border: 5px solid black;
+    width: calcu(100% + 30px);
+}
+.hero {
+    height: 450px;
+    background-color: aqua;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: $ my-purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/heroBurger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bar{
+    height: 60px;
+    background-color: #f25356;
+}
+.main{
+    height: 600px;
+    background-image: url("images/backgroundCharcol.jpeg");
+    background-repeat: no-repeat;background-position: center;
+    background-size: cover;
+}
+h1{
+    color: goldenrod;
+    font-family: 'Coiny', cursive;
+    width: 100%;
+    text-align: center;
+}
+.mainContainerLarge{
+    display: flex;
+    flex-direction: column;
+
+}
+.mainContainerSmall{
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+.mainImage img{
+    width: 25%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: #f25356;
+    color:#FFFFFF;
+    padding:50px;
+}
+.bottomLogo{
+    color: #f25356;
+}
+.bottomLogo div{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.bottomLogo ul {
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    list-style-type: none;
+}
