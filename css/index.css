@@ -1,6 +1,6 @@
 .bottomBar{
     background-color: #f5494d;
-    height: 100px;
+    height: 60px;
 }
 .bottomContent {
     height: 600px;
@@ -32,6 +32,11 @@
     transform: scale(1.3);
     z-index: 10;
     outline: 1px solid red;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 10px;
 }
+.card-body::first-letter{
+    color:#f5494d;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
