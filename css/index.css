@@ -21,7 +21,9 @@
     border: 2px solid #f5494d;
 }
 .homeCard-img{
+    object-fit: cover;
     height: 200px;
+
 
 }
 .card:hover {
