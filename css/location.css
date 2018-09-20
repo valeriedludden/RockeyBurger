@@ -1,0 +1,47 @@
+.mapContainerOuter {
+    padding: 40px 20px;
+    width:75%;
+}
+
+.locations{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.mapContainerInner{
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.myMap{
+    width: 40%;
+    background-color: chartreuse;
+}
+
+.addressInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+
+}
+
+h1 {
+    font-weight: bolder;
+    height: 34%;
+    background-color: gold;
+    text-align: center;
+}
+
+.address{
+    height: 33%;
+}
+
+.hours{
+    background-color: deeppink;
+}

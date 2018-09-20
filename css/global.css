@@ -2,6 +2,7 @@ body, html{
     padding: 0;
     margin: 0;
     width: 100%;
+    font-size: 1rem;
 }
 .navTop {
     display: flex;
@@ -20,7 +21,6 @@ body, html{
     list-style-type: none;
 }
 .navTop a{
-    /*text-decoration: none;*/
     color: #FFFFFF;
 }
 
@@ -32,6 +32,10 @@ body, html{
 .burger-img{
     height: 400px;
     object-fit: cover;
+}
+.bottomContent {
+    height: 600px;
+    background-image: url("../images/backgroundCharcol.jpeg");
 }
 
 footer {
@@ -60,13 +64,28 @@ footer ul li{
     text-decoration: none;
     color: #FFFFFF;
 }
-.socialContainer {
-    /*padding-left: 20px;
-    padding-top: 10px;*/
-    flex-direction: row;
-}
-.socialContainer a{
+
+.socialContainer a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 30px;
+    margin: 5px;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
 }
