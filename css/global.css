@@ -97,11 +97,15 @@ footer ul li{
 .myForm{
     display: flex;
     justify-content: space-between;
+    align-items: top;
 }
-.myButton{
+button {
     height:70%;
     align-items: center;
-    justify-content: center;
+    background-color: goldenrod;
+    margin: auto 0;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 .myInPut{
     margin:10px;

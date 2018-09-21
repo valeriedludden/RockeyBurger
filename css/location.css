@@ -10,16 +10,22 @@
 .locationTitle {
     text-align: center;
     color: #f5494d;
-    font-size: 30px;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
 }
 .mapContainer{
    margin: auto;
     width:50%;
+    box-shadow: 10px 5px 5px grey;
+}
+iframe{
+    margin: 0;
+    width: 100%;
 }
 .addressConatainer{
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
     padding: 20px;
     margin: auto;
 
@@ -28,17 +34,42 @@
 .addressColumn{
     /*width: 80%;*/
     /*padding: 20px;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid black;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*border: 2px solid black;*/
+    width: 100%;
+    margin: 0 15px;
+    text-align: center;
 }
 
 .addressRow{
-
-
+    margin-top: 25px;
+    border: 2px solid black;
 }
 .city{
-    font-size: 18px;
     color: #f5494d;
+    font-size: 30px;
+}
+
+p{
+    margin: 0;
+}
+.hours p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hours p:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+}
+.hours p:nth-child(4){
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hours p:nth-child(6){
+    font-size: 16px;
+    font-weight: bold;
 }
