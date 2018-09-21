@@ -35,7 +35,6 @@ body, html{
     object-fit: cover;
 }
 .bottomContent {
-    /*height: 600px;*/
     background-image: url("../images/backgroundCharcol.jpeg");
     padding-bottom: 70px;
 }

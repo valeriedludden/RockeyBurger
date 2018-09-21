@@ -1,47 +1,44 @@
-.mapContainerOuter {
-    padding: 40px 20px;
-    width:75%;
+.bottomContent{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.locations{
-    text-align: center;
-    font-family: Raleway;
-    font-weight: bolder;
-    font-size: 40px;
-    margin: 25px 0;
-}
-
-.mapContainerInner{
-    display: flex;
+.mapContent{
     background-color: #FFFFFF;
 }
+.locationTitle {
+    text-align: center;
+    color: #f5494d;
+    font-size: 30px;
+}
+.mapContainer{
+   margin: auto;
+    width:50%;
+}
+.addressConatainer{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
 
-.myMap{
-    width: 40%;
-    background-color: chartreuse;
 }
 
-.addressInfo {
+.addressColumn{
+    /*width: 80%;*/
+    /*padding: 20px;*/
     display: flex;
     flex-direction: column;
-    width: 100%;
-    text-align: center;
-    font-family: Raleway;
-    font-weight: bold;
-
+    justify-content: space-between;
+    border: 2px solid black;
 }
 
-h1 {
-    font-weight: bolder;
-    height: 34%;
-    background-color: gold;
-    text-align: center;
-}
+.addressRow{
 
-.address{
-    height: 33%;
-}
 
-.hours{
-    background-color: deeppink;
+}
+.city{
+    font-size: 18px;
+    color: #f5494d;
 }
