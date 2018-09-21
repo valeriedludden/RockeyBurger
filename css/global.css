@@ -43,10 +43,9 @@ body, html{
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /*height: 150px;*/
+    flex-direction: column;
     background-color: #f25356;
-    padding: 50px;
+    padding: 10px;
 }
 .bottomLogo{
     color: #f25356;
@@ -57,8 +56,14 @@ footer {
 }
 .bottomLogo ul {
     justify-content: center;
+    /*width: 50%;*/
 }
-footer{
+.footerContainer {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    width:100%;
+    margin-bottom: 16px;
 
 }
 
@@ -71,11 +76,58 @@ footer ul li{
     color: #FFFFFF;
 }
 
+.subscribeNow{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/backgroundCharcol.jpeg");
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    /*width: 40%;*/
+}
+.subscribeNow a{
+    background-color: #f25356;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 75%;
+    text-align: center;
+}
+
+.myForm{
+    display: flex;
+    justify-content: space-between;
+}
+.myButton{
+    height:70%;
+    align-items: center;
+    justify-content: center;
+}
+.myInPut{
+    margin:10px;
+}
+.subToday {
+    color: #f25356;
+}
+.socialContainer{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
 .socialContainer a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 30px;
-    margin: 5px;
+    margin: 0 10px;
+}
+.socialContainer p{
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+.socialIcon{
+
 }
 
 @include media-breakpoint-up(sm) {
