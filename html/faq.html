@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/faq.css">
-    <title>Jobs</title>
+    <title>FAQs</title>
 </head>
-<body>
+<div>
 
 <div class="navTop">
     <ul>
-        <li><a href="menu.html">FAQs</a></li>
+        <li><a href="menu.html">Menu</a></li>
         <li><a href="location.html">Locations</a></li>
     </ul>
 
@@ -32,10 +32,50 @@
 
 
 <div class="container-fluid bottomContent">
-    <div class="main">jj jjj jjjj jjj
-    </div>
+    <div class="main">
+        <div class="faq">
+            <h1>Frequently Asked Questions</h1>
+            <div>
+                <div class="faqContent">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header faqCard" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Why is your Rockey Burger So Expensive?
+                                    </button>
+                                </h5>
+                            </div>
 
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy’s organic cream for our ice cream cones, sundaes and shakes.Ourcommitment to freshnessand quality means higher prices than you’d find at traditional fast-food burger chains. It also means food that tastes way better — because, well, it is.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header faqCard" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Where does your beef come from?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
+
 
 <footer>
 
@@ -43,10 +83,8 @@
 
         <ul class="footerLinks">
             <li><a href="jobs.html">Employment</a></li>
-            <li><a href="locations"> Store Directory</a></li>
+            <li><a href="location.html"> Store Directory</a></li>
             <li><a href="faq.html"> FAQs</a></li>
-            <!--<li><<a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>-->
-            <!--<li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>-->
         </ul>
         <div class="bottomLogo">
             <div><img src="../images/mainLogo.png" ></div>
@@ -67,22 +105,21 @@
         <form>
             <div class="myForm">
                 <div class="form-group myInPut">
-                    <label for="formGroupExampleInput">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label for="formGroupExampleInput">Full Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name">
                 </div>
                 <div class="form-group myInPut">
-                    <label for="formGroupExampleInput">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label for="formGroupExampleInput">Phone Number</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter phone">
                 </div>
                 <div class="form-group myInPut">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
-                <button type="button" class="btn btn-warning myButton">Submit</button>
+                <button>Subscribe</button>
             </div>
         </form>
-        <!--<a class="btn btn-primary" href="#" role="button">Subscribe Now</a>-->
 
     </div>
 
@@ -92,3 +129,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+</html>

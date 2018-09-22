@@ -10,15 +10,19 @@
     border-radius: 5px;
     text-align: center;
 }
-
-h1 {
+h1{
     color: #f5494d;
     text-shadow: 2px 2px 4px #000000;
 }
 
-.jobContent {
-    margin-top: 20px;
+.aboutContent{
+    margin: 20px;
     width: 90%;
     font-size: 18px;
+    text-align: center;
 }
 
+.aboutContent p:nth-child(3){
+    font-size: 22px;
+    color: #f5494d;
+}

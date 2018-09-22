@@ -1,4 +1,24 @@
-menu{
-    margin 25px;
-    background-color: #FFFFFF;
+.bottomContent{
+    padding-top: 50px;
 }
+
+.main {
+    width: 80%;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: #f5494d;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.menuContent {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 18px;
+}
+
