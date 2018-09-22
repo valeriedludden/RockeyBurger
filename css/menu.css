@@ -8,17 +8,51 @@
     margin: auto;
     padding: 30px;
     border-radius: 5px;
-    text-align: center;
 }
 
 h1 {
     color: #f5494d;
     text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom:40px;
 }
+.goldBackground{
 
+}
+.media{
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .menuContent {
     margin-top: 20px;
     width: 90%;
     font-size: 18px;
 }
 
+h3{
+    text-decoration: underline;
+}
+.heroBurger{
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+
+}
+.menuItem{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.menuDescription{
+    font-size: 22px;
+}
+h4{
+    margin-bottom: 0;
+}
+h5{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.menuItem p{
+margin: 0;
+}
